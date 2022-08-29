@@ -14,8 +14,6 @@ this will be the regular expresion I will be evaluating:
 - [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Grouping and Capturing](#grouping-and-capturing)
-- [Bracket Expressions](#bracket-expressions)
 
 ## Regex Components
 
@@ -35,14 +33,11 @@ In our expression /^#?([a-f0-9]{6}|[a-f0-9]{3})$/ you will see a "|" right after
 
 ### Character Classes
 
-### Grouping and Capturing
-
-### Bracket Expressions
+In our regular expresion we have a two classes but it is really just one class that is repeated twice. The two classes that are used in our expresion is just "[a-f0-9]" repeated twice. An investigation of this class will reveal that we are looking for characters between the ranges of "a" through "f" not including uppercase, and we are also looking for numbers between the ranges "0" through "9". 
 
 ## Author
 
-This was created by Marco Mata. The repo of this project will be linked below.
+This was created by Marco Mata. The profile of my github will be linked below.
 
 github repo link:
-https://github.com/itsmarcotime/tutorial-17-challenge
-
+https://github.com/itsmarcotime
